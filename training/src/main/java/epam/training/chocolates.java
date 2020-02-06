@@ -1,7 +1,7 @@
 package epam.training;
 
 import java.util.*;
-class sweets
+class sweets1
 {
 	static int c=0;
 	static int weight[];
@@ -36,15 +36,15 @@ class sweets
 		}
 	}
 }
-class chocolates extends sweets
+class chocolates extends sweets1
 {
 	public static void main(String args[])
 	{
-		sweets s=new chocolates();
-		sweets s1=new chocolates();
-		sweets s2=new chocolates();
-		sweets s3=new chocolates();
-		sweets s4=new chocolates();
+		sweets1 s=new chocolates();
+		sweets1 s1=new chocolates();
+		sweets1 s2=new chocolates();
+		sweets1 s3=new chocolates();
+		sweets1 s4=new chocolates();
 		s.count();
 		s1.count();
 		s2.count();
